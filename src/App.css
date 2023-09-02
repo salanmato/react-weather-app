@@ -1,4 +1,18 @@
 .container{
   max-width: 1080px;
-  margin: 20px auto
+  margin: 20px auto;
+}
+
+footer{
+  margin-top: 70%;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #111;
+}
+
+footer a:hover{
+  color: red;
 }

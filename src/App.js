@@ -33,8 +33,10 @@ function App() {
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
+      <footer><p>feito seguindo o tutorial <a href='https://youtu.be/Reny0cTTv24'>React JS Tutorial – Build a Weather App With Cities Autocomplete.</a></p></footer>
     </div>
   );
+
 }
 
 export default App;
